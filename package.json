@@ -1,0 +1,24 @@
+{
+  "name": "canvas-scroll",
+  "version": "1.0.0",
+  "description": "Canvas scroll image grid with recycled images",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-watch": "^2.0.2",
+    "grunt": "^0.4.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "load-grunt-tasks": "^3.5.2"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BPH",
+  "license": "ISC"
+}
