@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "Canvas scroll image grid with recycled images",
   "main": "index.js",
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BPerlakiH/canvas-scroll.git"
+  },
+  "dependencies": {
+    "grunt-contrib-watch": "^1.0.0"
+  },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-cli": "^6.11.4",
@@ -13,7 +19,9 @@
     "grunt": "^0.4.0",
     "grunt-babel": "^6.0.0",
     "grunt-browser-sync": "^2.2.0",
-    "load-grunt-tasks": "^3.5.2"
+    "jasmine": "^2.4.1",
+    "load-grunt-tasks": "^3.5.2",
+    "minimatch": "^3.0.2"
   },
   "scripts": {
     "build": "babel src -d lib",
