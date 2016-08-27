@@ -3,13 +3,24 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+// @import "compass/reset";
+@import "compass/css3/border-radius";
 
-html,body,canvas {
+* {
 	margin: 0;
 	padding: 0;
 }
 
 body {
 	-webkit-overflow-scrolling: touch;
+}
+
+button {
+	margin: 2em;
+	padding: 1em;
+	border: none;
+	@include border-radius(1em, 1em);
+	font-size: 1em;
+	color: white;
+	background-color: black;
 }
